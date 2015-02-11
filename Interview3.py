@@ -1,29 +1,30 @@
 Design:
 1) class parking:
-     __init__(self):
-       ticketnumber = 0
-       intimemap = {}
+     
+    ticketnumber = 0
+    intimemap = {}
+    spots = 500
      
      is_full(self):
-       return ticketnumber == 1000
+       return spots == 500
        
      get_ticketnumber(self):
        if is_full():
           raise "Sorry, we are out of space"
-          
+    
+       parking.spots = parking.spots - 1      
        intime = time()
-       ticketnumber = ticketnumber + 1
+       parking.ticketnumber = parking.ticketnumber + 1
        intimemap[ticketnumber] = intime
        
        return ticketnumber
        
      leaving_garage(self, n):
        outtime = time()
-       
+       parking.spots = parkingspots + 1
        intime = intimemap[n]
        charge = (outtime-intime) * 2
        return charge      
-       
      
     CusA = parking()
     CusA.get_ticket()
