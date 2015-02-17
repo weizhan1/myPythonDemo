@@ -20,7 +20,7 @@ Size = 2n
 
 def rearrange(alist):
   inc = 0
-  while inc != len(alist):
+  while inc <= len(alist)/2:
     if i % 2 == 1:
      temp = alist[inc]
      alist[inc] = alist[len(alist)-inc]
