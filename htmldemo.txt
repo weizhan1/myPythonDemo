@@ -1,0 +1,679 @@
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video
+
+<p>
+To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
+</p>
+
+<var>Variable</var>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>This is a <u>parragraph</u>.</p>
+
+<p><tt>Teletype text</tt></p>
+
+<video width="320" height="240" controls>
+  <source src="forrest_gump.mp4" type="video/mp4">
+  <source src="forrest_gump.ogg" type="video/ogg">
+  <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<html>
+
+<head>
+<title>HTML Reference</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+
+<p>We open at <time>10:00</time> every morning.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+<table>
+ <thead>
+  <tr>
+     <th>Month</th>
+     <th>Savings</th>
+  </tr>
+ </thead>
+ <tfoot>
+  <tr>
+     <td>Sum</td>
+     <td>$180</td>
+  </tr>
+ </tfoot>
+ <tbody>
+  <tr>
+     <td>January</td>
+     <td>$100</td>
+  </tr>
+  <tr>
+     <td>February</td>
+     <td>$80</td>
+  </tr>
+ </tbody>
+</table>
+
+<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+</textarea>
+
+<p>This text contains <sup>superscript</sup> text.</p>
+
+<details>
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+
+<html>
+<head>
+<style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+</head>
+<body>
+
+<h1>A heading</h1>
+<p>A paragraph.</p>
+
+</body>
+</html>
+
+<strong>Strong text</strong>
+
+<p>Version 2.0 is <strike>not yet available!</strike> now available!</p>
+
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+<p>W3Schools.com - the world's largest web development site.</p>
+<p><small>Copyright 1999-2050 by Refsnes Data</small></p>
+
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+</section>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+<em>Emphasized text</em><br>
+<strong>Strong text</strong><br>
+<code>A piece of computer code</code><br>
+<samp>Sample output from a computer program</samp><br>
+<kbd>Keyboard input</kbd><br>
+<var>Variable</var>
+
+<p><s>My car is blue.</s></p>
+<p>My new car is silver.</p>
+
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+
+<ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby>
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<progress value="22" max="100"></progress>
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<object data="horse.wav">
+  <param name="autoplay" value="true">
+</object>
+
+<p>This is some text in a paragraph.</p>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+<html>
+
+<frameset cols="25%,50%,25%">
+  <frame src="frame_a.htm">
+  <frame src="frame_b.htm">
+  <frame src="frame_c.htm">
+  <noframes>Sorry, your browser does not handle frames!</noframes>
+</frameset>
+
+</html>
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/jquery/">jQuery</a>
+</nav>
+
+<meter value="2" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">60%</meter
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Hege Refsnes">
+</head>
+
+<menu type="context" id="mymenu">
+  <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+  <menu label="Share on...">
+    <menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);"></menuitem>
+    <menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);"></menuitem>
+  </menu>
+  <menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+</menu>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+
+<head>
+<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<form>
+ <fieldset>
+  <legend>Personalia:</legend>
+  Name: <input type="text"><br>
+  Email: <input type="text"><br>
+  Date of birth: <input type="text">
+ </fieldset>
+</form>
+
+form action="demo_form.asp">
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" value="female"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="demo_keygen.asp" method="get">
+  Username: <input type="text" name="usr_name">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+
+<iframe src="http://www.w3schools.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<p>He named his car <i>The lightning</i>, because it was very fast.</p>
+
+<h1>HTML</h1>
+<p>HTML is a language for describing web pages.....</p>
+
+<hr>
+
+<h1>CSS</h1>
+<p>CSS defines how to display HTML elements.....</p>
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<hgroup>
+  <h1>Welcome to my WWF</h1>
+  <h2>For a living planet</h2>
+</hgroup>
+
+<p>The rest of the content...</p>
+
+<article>
+  <header>
+    <h1>Most important heading here</h1>
+    <h3>Less important heading here</h3>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+
+<form action="demo_form.asp" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
+<font size="3" color="red">This is some text!</font>
+<font size="2" color="blue">This is some text!</font>
+<font face="verdana" color="green">This is some text!</font>
+
+<figure>
+  <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
+
+<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text"><br>
+    Email: <input type="text"><br>
+    Date of birth: <input type="text">
+  </fieldset>
+</form>
+
+<embed src="helloworld.swf">
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<div style="color:#0000FF">
+  <h3>This is a heading</h3>
+  <p>This is a paragraph.</p>
+</div>
+
+<dir>
+  <li>html</li>
+  <li>xhtml</li>
+  <li>css</li>
+</dir>
+
+<table>
+<tr>
+  <th>January <dialog open>This is an open dialog window</dialog></th>
+  <th>February</th>
+  <th>March</th>
+</tr>
+<tr>
+  <td>31</td>
+  <td>28</td>
+  <td>31</td>
+</tr>
+</table
+
+<p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the standard markup language for creating web pages.</p>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<form action="demo_form.asp" method="get">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<code>A piece of computer code</code>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<center>This text will be center-aligned.</center>
+
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+
+</script>
+
+<button type="button">Click Me!</button>
+
+This text contains<br>a line break.
+
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+<p><big>Bigger text</big></p>
+
+<bdo dir="rtl">
+This text will go right-to-left.
+</bdo>
+
+<ul>
+<li>User <bdi>hrefs</bdi>: 60 points</li>
+<li>User <bdi>jdoe</bdi>: 80 points</li>
+<li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+<head>
+<basefont color="red" size="5">
+</head>
+
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+
+<head>
+<base href="http://www.w3schools.com/images/" target="_blank">
+</head>
+
+<body>
+<img src="stickman.gif" width="24" height="39" alt="Stickman">
+<a href="http://www.w3schools.com">W3Schools</a>
+</body>
+
+<head>
+<base href="http://www.w3schools.com/images/" target="_blank">
+</head>
+
+<body>
+<img src="stickman.gif" width="24" height="39" alt="Stickman">
+<a href="http://www.w3schools.com">W3Schools</a>
+</body>
+
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>My family and I visited The Epcot center this summer.</p>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+<article>
+  <h1>Google Chrome</h1>
+  <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article>
+
+<applet code="Bubbles.class" width="350" height="350">
+Java applet that draws animated bubbles.
+</applet>
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+Can I get this <acronym title="as soon as possible">ASAP</acronym>?
+
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<a href="http://www.w3schools.com">Visit W3Schools.com!</a>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+
+<script type="text/javascript">
+<!--
+function displayMsg() {
+    alert("Hello World!")
+}
+//-->
+</script> 
+
+<!--This is a comment. Comments are not displayed in the browser-->
+
+<p>This is a paragraph.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
