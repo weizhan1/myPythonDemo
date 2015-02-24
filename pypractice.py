@@ -1,3 +1,4 @@
+grep -l -R --perl-regexp "\b(\(\d{3}\)\s*|\d{3}-)\d{3}-\d{4}\b" * > output.txt
 
 # coding: utf-8
 
